@@ -1,0 +1,23 @@
+ python -m pip install virtualenv
+ python.exe -m pip install --upgrade pip
+
+ virtualenv env
+env\scripts\activate
+ pip install django
+
+ django-admin startproject projname
+ python manage.py runserver
+
+add apps
+ python manage.py startapp appname eg playground
+ Remember to add to list of installed apps
+
+
+toolbar
+python -m pip install django-debug-toolbar
+
+
+python manage.py startpp playground
+ common errors
+ Did you "
+            "forget to activate a virtual environment?" install django activate, env
