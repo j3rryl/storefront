@@ -21,3 +21,6 @@ python manage.py startpp playground
  common errors
  Did you "
             "forget to activate a virtual environment?" install django activate, env
+
+
+            Some changes require restarting server
