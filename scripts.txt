@@ -8,6 +8,8 @@ env\scripts\activate
  django-admin startproject projname
  python manage.py runserver
 
+ make model, run the makemigration then migrate, add to admin
+
 add apps
  python manage.py startapp appname eg playground
  Remember to add to list of installed apps
@@ -16,7 +18,10 @@ add apps
 toolbar
 python -m pip install django-debug-toolbar
 
-
+database
+python manage.py migrate
+python manage.py makemigrations
+manage.py .... createsuperuser
 python manage.py startpp playground
  common errors
  Did you "
